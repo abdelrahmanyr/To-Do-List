@@ -1,0 +1,37 @@
+
+body {
+    background: url(bg.jpg);
+    background-size: cover;
+    background-repeat:space;
+
+}
+
+.main, .tasks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 40%;
+    margin: 3% auto 0px;
+    flex-direction: column;
+    border-radius: 1rem;
+    border: 3px solid #0D6EFD;
+    padding: 2% 5%;
+}
+
+.tasks {
+    padding: 2% 2%;
+
+}
+
+.element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 1% 0px;
+    padding: 2%;
+    border-left: 0.5em solid #0D6EFD;
+    border-radius: 1em;
+    background-color: rgb(238, 241, 241);
+}

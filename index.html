@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <script src='bootstrap-5.3.3-dist/js/bootstrap.min.js'></script>
+
+
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <h1>To Do List</h1>
+        </div>
+        <div class="input-group mb-3 add">
+            <input type="text" class="form-control" id="task" placeholder="Task Name" aria-label="Task Name" aria-describedby="button-addon2">
+            <button class="btn btn-outline-primary" onclick="add();" type="button" id="button-addon2">Add</button>
+          </div>
+
+    </div>
+
+    <div class="tasks" id="tasks">
+<!--         <div class="element">
+            <div class="task">
+                <p>Task 1</p>
+            </div>
+            <div class="buttons">
+                <button class="btn btn-outline-success" onclick="done(this);">Done</button>
+                <button class="btn btn-outline-danger" onclick="remove(this);">Remove</button>
+            </div>
+        </div> -->
+    </div>
+    
+    <script src="index.js"></script>
+
+</body>
+</html>
